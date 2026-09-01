@@ -61,7 +61,12 @@ export default function Page() {
           <Link className="text-4xl font-heading text-cta hover:text-orange-700" href="contact.html"> Book Trip </Link>
         </div>
         {/* Hero Section */}
-        <section id="hero" className="relative h-screen min-h-[600px] flex items-center justify-center bg-hero-pattern bg-cover bg-center bg-no-repeat bg-fixed">
+        {/* Hero Section */}
+<section 
+  id="hero" 
+  className="relative h-screen min-h-[600px] flex items-center justify-center bg-cover bg-center bg-no-repeat bg-fixed"
+  style={{ backgroundImage: "url('https://images.unsplash.com/photo-1469474968028-56623f02e42e?q=80&w=1920&auto=format&fit=crop')" }}
+>
           <div className="absolute inset-0 bg-black/40"></div>
           <div className="relative z-10 text-center px-6 max-w-5xl mx-auto">
             <Text variant="bold" className="inline-block py-1 px-3 rounded-full bg-white/20 backdrop-blur-sm text-white text-sm font-bold tracking-wider mb-6 border border-white/30"> EXPLORE THE UNCHARTED </Text>

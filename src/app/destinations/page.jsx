@@ -26,7 +26,7 @@ export default function Page() {
             <div className="max-w-7xl mx-auto px-6 lg:px-8">
               <div className="flex justify-between items-center h-20">
                 <Link className="flex items-center gap-2 group" href="index.html"><Compass className="w-8 h-8 text-primary" />
-                <Text className="font-heading text-3xl text-primary tracking-wide"> WANDERLUST </Text></Link>
+                <Text className="font-heading text-3xl text-primary tracking-wide"> Mahnoor Holidays</Text></Link>
                 <div className="hidden md:flex items-center gap-8">
                   <Link className="text-base font-medium text-text hover:text-primary transition-colors" href="index.html"> Home </Link>
                   <Link className="text-base font-medium text-text hover:text-primary transition-colors" href="about.html"> About </Link>
