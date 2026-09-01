@@ -161,12 +161,12 @@ export default function Page() {
           </div>
         </section>
         {/* Footer */}
-        <footer className="bg-text text-white pt-20 pb-10">
+       <footer className="bg-text text-white pt-20 pb-10">
           <div className="max-w-7xl mx-auto px-6 lg:px-8">
             <div className="grid md:grid-cols-4 gap-12 mb-16">
               <div className="col-span-1 md:col-span-2">
                 <Link className="flex items-center gap-2 mb-6" href="index.html"><Compass className="w-8 h-8 text-secondary" />
-                <Text className="font-heading text-3xl text-white tracking-wide"> WANDERLUST </Text></Link>
+                <Text className="font-heading text-3xl text-black tracking-wide"> Mahnoor Holidays </Text></Link>
                 <p className="text-gray-400 max-w-sm mb-8">
                    Inspiring the spirit of adventure since 2010. We believe in travel that transforms you and respects the planet. 
                 </p>
@@ -198,23 +198,26 @@ export default function Page() {
                 <ul className="space-y-4">
                   <li className="flex items-start gap-3 text-gray-400">
                     <MapPin className="w-5 h-5 text-secondary mt-1" />
-                    <Text> 123 Adventure Way 
+                    <Text> House 8, Block - B,Lake Side Main Road from rampura bridge.
                     <br />
-                     Boulder, CO 80302 </Text>
+                      Rampura Banasree.4th floor (Lift-3), Flat - D-1, 
+Body fit zim or Ezee click Building. </Text>
                   </li>
                   <li className="flex items-center gap-3 text-gray-400">
                     <Phone className="w-5 h-5 text-secondary" />
-                    <Text> +1 (555) 987-6543 </Text>
+                    <Text>
+01911707999,
+01745707888 </Text>
                   </li>
                   <li className="flex items-center gap-3 text-gray-400">
                     <Mail className="w-5 h-5 text-secondary" />
-                    <Text> hello@wanderlust.com </Text>
+                    <Text> kk.mahanurfly@gmail.com </Text>
                   </li>
                 </ul>
               </div>
             </div>
             <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-gray-500 text-sm"> © 2024 Wanderlust Expeditions. All rights reserved. </p>
+              <p className="text-gray-500 text-sm"> © 2026 Mahnoor Holidays. All rights reserved. </p>
               <div className="flex gap-6 text-sm text-gray-500">
                 <Link className="hover:text-white transition-colors" href="#"> Privacy Policy </Link>
                 <Link className="hover:text-white transition-colors" href="#"> Terms of Service </Link>
